@@ -1,0 +1,32 @@
+#shop-header {
+  padding: 300px 0;
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+
+#shop-header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url('images/shop/breads-1867459_1920.jpg');
+  background-size: 100% 100%;
+  opacity: 0.5;
+}
+
+#shop {
+  padding: 300px 0;
+}
+
+#shop-header h1 {
+  position: relative;
+}
+
+.p-card {
+  text-align: left;
+}

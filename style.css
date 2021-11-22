@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  color: black !important;
+}
+#feature {
+  position: relative;
+  width: 100%;
+  height: 680px;
+  background-color: black;
+}
+
+#feature::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('images/feature.jpg');
+  opacity: 0.3;
+  background-size: 100% 100%;
+}
+
+#feature h1 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-style: bolder;
+  font-family: 'Cantarell', sans-serif;
+  color: white !important;
+  display: block;
+}
+#feature button {
+  font-size: 25px;
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  background-color: rgb(233, 173, 62);
+  color: white;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+#value-props {
+  display: flex;
+  padding: 500px 0;
+}
+
+.prop {
+  height: 300px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 5px 5px black solid;
+  width: 33%;
+}
+
+.prop p {
+  font-size: 18px;
+}
+
+.prop i {
+  font-size: 80px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#carousel-section {
+  padding: 100px 0;
+}
+
+#carousel-section .row {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-item {
+  text-align: center !important;
+}
+
+.carousel-item .col-md-4 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#carousel-section-header {
+  background-color: rgb(233, 173, 62);
+  font-family: sans-serif;
+}
+
+.col-md-4,
+.col-md-5,
+.col-md-6 {
+  margin-right: 0 !important;
+}
+
+.row {
+  margin-right: 0px !important;
+}
+
+#about-us {
+  padding: 300px 0;
+}
+
+#specialty-header {
+  padding: 250px 0;
+  background-color: rgb(233, 173, 62);
+}
+#specialty-header p {
+  font-size: 18px;
+}
+
+#specialty {
+  padding: 300px 0;
+}
+
+#specialty img {
+  border-radius: 5px;
+}
+
+#cake-photos {
+  padding: 250px 0;
+  background-color: rgb(233, 173, 62);
+}
+
+footer {
+  background-color: rgb(233, 173, 62);
+  font-size: 18px;
+  padding: 50px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  #value-props {
+    flex-direction: column;
+  }
+  #feature h1 {
+    font-size: 25px;
+  }
+
+  #feature button {
+    font-size: 15px;
+    left: 30%;
+  }
+
+  .prop {
+    margin-top: 250px;
+    width: 100%;
+  }
+}
