@@ -5,6 +5,7 @@
 }
 #contact-header h1 {
   position: relative;
+  font-family: 'Apple Chancery';
 }
 
 #contact-header::before {

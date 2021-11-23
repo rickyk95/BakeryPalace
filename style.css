@@ -30,7 +30,7 @@ nav li a {
   width: 100%;
   transform: translateX(-50%);
   font-style: bolder;
-  font-family: 'Cantarell', sans-serif;
+  font-family: 'Apple Chancery';
   color: white !important;
   display: block;
 }
@@ -94,7 +94,7 @@ nav li a {
 
 #carousel-section-header {
   background-color: rgb(233, 173, 62);
-  font-family: sans-serif;
+  font-family: 'Apple Chancery';
 }
 
 .col-md-4,
@@ -111,17 +111,25 @@ nav li a {
   padding: 300px 0;
 }
 
+#about-us h1 {
+  font-family: 'Apple Chancery';
+}
+
 #specialty-header {
   padding: 250px 0;
   background-color: rgb(233, 173, 62);
+  font-family: 'Apple Chancery';
 }
 #specialty-header p {
-  font-size: 20px;
-  line-height: 2;
+  font-size: 18px;
 }
 
 #specialty {
   padding: 300px 0;
+}
+
+#specialty h1 {
+  font-family: 'Apple Chancery';
 }
 
 #specialty img {
@@ -163,7 +171,6 @@ footer a:hover {
   }
   #feature h1 {
     font-size: 45px;
-    font-family: 'Cantarell', sans-serif;
   }
 
   #feature button {
