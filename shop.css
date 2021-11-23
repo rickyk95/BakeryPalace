@@ -25,7 +25,7 @@
 
 #shop-header h1 {
   position: relative;
-  font-family: 'Apple Chancery';
+  font-family: 'Apple Chancery' !important;
 }
 
 .p-card {
