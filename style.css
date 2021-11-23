@@ -116,7 +116,8 @@ nav li a {
   background-color: rgb(233, 173, 62);
 }
 #specialty-header p {
-  font-size: 18px;
+  font-size: 20px;
+  line-height: 2;
 }
 
 #specialty {
@@ -149,6 +150,13 @@ footer a:hover {
 }
 
 @media screen and (max-width: 650px) {
+  #feature-section h1 {
+    top: 35%;
+  }
+
+  #feature-section button {
+    top: 45%;
+  }
   #value-props {
     flex-direction: column;
   }
