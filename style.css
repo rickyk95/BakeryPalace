@@ -160,8 +160,7 @@ footer a:hover {
 @media screen and (max-width: 650px) {
   #feature h1 {
     top: 40%;
-    color: green;
-    font-family: 'Apple Chancery';
+    font-family: 'Apple Chancery' !important;
   }
 
   #feature button {
