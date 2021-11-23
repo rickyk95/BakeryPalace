@@ -151,11 +151,11 @@ footer a:hover {
 
 @media screen and (max-width: 650px) {
   #feature-section h1 {
-    top: 35%;
+    top: 15%;
   }
 
   #feature-section button {
-    top: 45%;
+    top: 25%;
   }
   #value-props {
     flex-direction: column;
