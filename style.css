@@ -150,12 +150,13 @@ footer a:hover {
 }
 
 @media screen and (max-width: 650px) {
-  #feature-section h1 {
-    top: 15%;
+  #feature h1 {
+    top: 35%;
+    color: green;
   }
 
-  #feature-section button {
-    top: 25%;
+  #feature button {
+    top: 55%;
   }
   #value-props {
     flex-direction: column;
