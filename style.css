@@ -151,18 +151,19 @@ footer a:hover {
 
 @media screen and (max-width: 650px) {
   #feature h1 {
-    top: 35%;
+    top: 40%;
     color: green;
   }
 
   #feature button {
-    top: 55%;
+    top: 65%;
   }
   #value-props {
     flex-direction: column;
   }
   #feature h1 {
     font-size: 45px;
+    font-family: 'Cantarell', sans-serif;
   }
 
   #feature button {
