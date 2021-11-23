@@ -169,7 +169,7 @@ footer a:hover {
 @media screen and (max-width: 650px) {
   #feature h1 {
     top: 40%;
-    font-family: 'Apple Chancery' !important;
+    font-family: 'dancing_script_otregular';
   }
 
   #feature button {
