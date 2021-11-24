@@ -103,7 +103,7 @@ nav li a {
 
 #carousel-section-header {
   background-color: rgb(233, 173, 62);
-  font-family: 'Apple Chancery';
+  font-family: 'dancing_script_otregular' !important;
 }
 
 .col-md-4,
@@ -121,7 +121,7 @@ nav li a {
 }
 
 #about-us h1 {
-  font-family: 'Apple Chancery';
+  font-family: 'dancing_script_otregular' !important;
 }
 
 #specialty-header {
@@ -138,7 +138,7 @@ nav li a {
 }
 
 #specialty h1 {
-  font-family: 'Apple Chancery';
+  font-family: 'dancing_script_otregular' !important;
 }
 
 #specialty img {

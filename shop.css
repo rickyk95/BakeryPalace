@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'dancing_script_otregular';
+  src: url('dancingscript-regular-webfont.woff2') format('woff2'),
+    url('dancingscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #shop-header {
   padding: 300px 0;
   box-sizing: border-box;
@@ -25,7 +33,7 @@
 
 #shop-header h1 {
   position: relative;
-  font-family: 'Apple Chancery' !important;
+  font-family: 'dancing_script_otregular' !important;
 }
 
 .p-card {
