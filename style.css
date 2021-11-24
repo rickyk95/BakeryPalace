@@ -127,7 +127,7 @@ nav li a {
 #specialty-header {
   padding: 250px 0;
   background-color: rgb(233, 173, 62);
-  font-family: 'Apple Chancery';
+  font-family: 'dancing_script_otregular' !important;
 }
 #specialty-header p {
   font-size: 18px;
